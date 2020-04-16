@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: pl.tkaczyk.soaplab1.Soaplab1ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.098 s <<< FAILURE! - in pl.tkaczyk.soaplab1.Soaplab1ApplicationTests
+contextLoads  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
+Caused by: org.springframework.oxm.UncategorizedMappingException: Unknown JAXB exception; nested exception is javax.xml.bind.JAXBException: class pl.tkaczyk.soaplab1script.RegisterCallRequest nor any of its super class is known to this context.
+Caused by: javax.xml.bind.JAXBException: class pl.tkaczyk.soaplab1script.RegisterCallRequest nor any of its super class is known to this context.
+
